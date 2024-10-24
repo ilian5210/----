@@ -95,10 +95,10 @@ output = padding(intput_img, 1)
 print(output)
 print()
 
-sign = cv2.imread('imgs\IMG_3652.png', 0)
-sign = cv2.resize(sign, (0, 0), fx=0.1, fy=.1)
-#save as new picture
-cv2.imwrite('imgs\sign1.png',sign)
+# sign = cv2.imread('imgs\IMG_3652.png', 0)
+# sign = cv2.resize(sign, (0, 0), fx=0.1, fy=.1)
+# #save as new picture
+# cv2.imwrite('imgs\sign1.png',sign)
 
 
 
